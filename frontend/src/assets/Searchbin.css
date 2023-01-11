@@ -12,7 +12,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-right: 4px solid black;
+  border-right: 4px solid #d1dbe4;
+  background-color: #194a7a;
 }
 
 .TextEditor {
@@ -27,6 +28,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #194a7a;
 }
 
 .Toolbar {
@@ -40,4 +42,7 @@
 .Toolbar button {
   width: 40%;
   height: 100%;
+  border: 0;
+  cursor: pointer;
+  background-color: #7593af;
 }
